@@ -1,25 +1,33 @@
-# Morrisons Sales Analysis — Football Match Impact
+# Retail Footfall and Sales Analysis
 
-This project analyzes supermarket sales data to explore how football match days affect customer footfall and sales performance.
+This project analyzes retail footfall and sales data, focusing on Morrisons store locations and the impact of football match days on sales and customer visits.
 
-Using real supermarket sales data (with simulated football match days), it includes:
+## Project Overview
 
-- Data cleaning and preprocessing
-- Adding football match day flags
-- Exploratory Data Analysis (EDA) by date, city, and product line
-- Statistical A/B testing to check significance of match day effects
-- Visualizations comparing sales and footfall on match vs non-match days
+- Data cleaning and exploration of supermarket sales data.
+- Statistical analysis comparing sales on football match days versus regular days.
+- Visualization of footfall patterns and sales trends.
+- Predictive modeling of sales based on footfall and other factors.
 
-The goal is to demonstrate data-driven insights into retail patterns during sports events and showcase skills in data analysis, hypothesis testing, and visualization.
+## Data
 
-## Files
+The dataset includes daily footfall counts, total sales, average basket value, and football match day indicators for a Morrisons store.
 
-- `Morrisons_Sales_Footfall_Analysis.ipynb` — main Jupyter notebook  
-- `supermarket_sales.csv` — raw sales data  
-- `supermarket_sales_with_matchdays.csv` — dataset augmented with football match flags  
+## How to Run
 
-## How to run
+1. Install the required Python packages listed in `requirements.txt`.
+2. Open the Jupyter notebooks in the project folder to explore the analysis and visualizations.
+3. You can retrain or modify the predictive models as needed.
 
-1. Install required Python packages:  
-   ```bash
-   pip install pandas numpy matplotlib seaborn scipy
+## Requirements
+
+See `requirements.txt` for all Python dependencies.
+
+## Author
+
+Anand Ahluwalia  
+Email: aahluwalia2949@gmail.com
+
+---
+
+Feel free to reach out if you have any questions or suggestions!
