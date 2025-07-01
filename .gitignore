@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv
+env/
+venv/
+
+# Python virtual environments
+ENV/
+env.bak/
+venv.bak/
+
+# IDE folders
+.vscode/
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Output folders (if any)
+output/
+results/
+logs/
+
+# Data files (if you want to exclude large data files, otherwise comment out)
+# data/
+# *.csv
